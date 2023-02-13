@@ -42,6 +42,7 @@ app.use(express.static(path.resolve(__dirname, "public")));
 // Routes
 app.get("/", (req, res) => {
   // res.sendFile(__dirname + "/index.html");
+  
   res.status(200).json("Api Working 🚀")
 });
 
