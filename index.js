@@ -40,11 +40,15 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static(path.resolve(__dirname, "public")));
 
 // Routes
-app.get("/", (req, res) => {
-  // res.sendFile(__dirname + "/index.html");
+// app.get("/", (req, res) => {
+//   // res.sendFile(__dirname + "/index.html");
   
-  res.status(200).json("Api Working 🚀")
-});
+//   res.status(200).json("Api Working 🚀")
+// });
+
+app.get("/",(req,res) => {
+  res.send("Netflix Server Working")
+})
 
 // get all Data
 app.get("/data", async (req, res) => {
