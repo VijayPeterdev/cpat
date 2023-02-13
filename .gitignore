@@ -1,11 +1,11 @@
 /node_modules
 /package-lock.json
 .env
-/check.xlsx
-/companydata.xlsx
-/index2.js
-/tafe.xlsx
-/root.js
+check.xlsx
+companydata.xlsx
+index2.js
+tafe.xlsx
+root.js
 .gitignore
 app.js
 
